@@ -6,6 +6,7 @@ IP-CIDR,142.171.133.131/32,no-resolve
 DOMAIN-SUFFIX,dns.google
 
 
-# 其他网站
+# 国外其他网站
 DOMAIN-SUFFIX,nic.ua
 DOMAIN-SUFFIX,1gb.ua
+DOMAIN-SUFFIX,bluu.pl
