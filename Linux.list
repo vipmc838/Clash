@@ -1,0 +1,49 @@
+# 个人列表，默认走代理
+
+# 名域
+DOMAIN-SUFFIX,nic.ua
+DOMAIN-SUFFIX,1gb.ua
+DOMAIN-SUFFIX,bluu.pl
+DOMAIN-SUFFIX,l53.net
+DOMAIN-SUFFIX,us.kg
+
+# 漫画
+#DOMAIN-SUFFIX,copymanga.site
+
+# 资源站
+#DOMAIN-SUFFIX,unpkg.com
+#DOMAIN-SUFFIX,dmhy.org
+#DOMAIN-SUFFIX,acg.rip
+#DOMAIN-SUFFIX,bangumi.moe
+#DOMAIN-SUFFIX,mangabz.com
+#DOMAIN-SUFFIX,last.fm
+#DOMAIN-SUFFIX,musicbrainz.org
+#DOMAIN-SUFFIX,lastfm.freetls.fastly.net
+
+# 技术网站
+#DOMAIN-SUFFIX,jenkins.io
+#DOMAIN-SUFFIX,notepad-plus-plus.org
+
+# 微软个人云
+# DOMAIN,api.onedrive.com
+# DOMAIN,onedrive.live.com
+DOMAIN-SUFFIX,onedrive.live.com
+# DOMAIN-SUFFIX,msocdn.com
+
+# 18+
+#DOMAIN-SUFFIX,91porn.com
+#DOMAIN-SUFFIX,91porny.com
+#DOMAIN-SUFFIX,jiuse.cloud
+#DOMAIN-SUFFIX,jiuse2.cloud
+#DOMAIN-SUFFIX,fastly.jsdelivr.net
+#DOMAIN-SUFFIX,av01.tv
+#DOMAIN-SUFFIX,netflav.com
+#DOMAIN-SUFFIX,18comic.vip
+#DOMAIN-SUFFIX,18comic.org
+#DOMAIN-KEYWORD,18comic
+#DOMAIN-KEYWORD,picacg
+#DOMAIN-SUFFIX,ackcdn.net
+#DOMAIN-SUFFIX,gimy.app
+#DOMAIN-SUFFIX,e-hentai.org
+#DOMAIN-SUFFIX,ehgt.org
+#DOMAIN-SUFFIX,hath.network
