@@ -17,7 +17,7 @@
   { "domain": "nana.x10.bz", "registrationDate": "2025-03-18", "expirationDate": "2026-03-18", "system": "X10Hosting", "systemURL": "https://x10hosting.com/login" },
   { "domain": "oyz.cloudns.ch", "registrationDate": "2025-08-08", "expirationDate": "2038-08-08", "system": "ClouDNS", "systemURL": "https://www.cloudns.net" },
   { "domain": "08.ip-ddns.com", "registrationDate": "2025-08-08", "expirationDate": "2038-08-08", "system": "ClouDNS", "systemURL": "https://www.cloudns.net" },
-  { "domain": "mroyz.cloudns.ch", "registrationDate": "2025-08-08", "expirationDate": "2038-08-08", "system": "ClouDNS", "systemURL": "https://www.cloudns.net" },
+  { "domain": "mroyz.cloudns.ch", "registrationDate": "2025-08-08", "expirationDate": "2038-08-08"， "system": "ClouDNS", "systemURL": "https://www.cloudns.net" },
   { "domain": "beck.nyc.mn", "registrationDate": "2025-08-08", "expirationDate": "2038-08-08", "system": "NYC.mn", "systemURL": "https://dot.nyc.mn" },
   { "domain": "boosoyz.nyc.mn", "registrationDate": "2025-08-08", "expirationDate": "2038-08-08", "system": "NYC.mn", "systemURL": "https://dot.nyc.mn" }
 ]
