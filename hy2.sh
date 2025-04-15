@@ -1,12 +1,14 @@
 #!/bin/bash
 
-apk add wget curl git openssh openssl openrc
+apk update
+apk add --no-cache curl wget bash openssl ca-certificates openrc
 
-generate_random_password() {
-  dd if=/dev/random bs=18 count=1 status=none | base64
+# 生成 base64 随机密码（24字符左右）
+generate_base64_password() {
+  head -c 18 /dev/urandom | base64
 }
 
-GENPASS="$(generate_random_password)"
+GENPASS="$(generate_base64_password)"
 
 echo_hysteria_config_yaml() {
   cat << EOF
@@ -26,7 +28,7 @@ tls:
 
 auth:
   type: password
-  password: 8462277
+  password: $GENPASS
 
 masquerade:
   type: proxy
@@ -57,7 +59,7 @@ EOF
 }
 
 
-wget -O /usr/local/bin/hysteria https://download.hysteria.network/app/latest/hysteria-linux-amd64  --no-check-certificate
+wget -O /usr/local/bin/hysteria https://github.com/vipmc838/Clash/raw/refs/heads/main/hysteria-linux-amd64  --no-check-certificate
 chmod +x /usr/local/bin/hysteria
 
 mkdir -p /etc/hysteria/
@@ -78,12 +80,20 @@ service hysteria start
 #启动hy2
 #/usr/local/bin/hysteria  server --config /etc/hysteria/config.yaml &
 
+# 获取 IP
+SERVER_IP=$(wget -qO- http://ip-api.com/line?fields=query || echo "无法获取外部 IP 地址")
+
+# 输出连接
 echo "------------------------------------------------------------------------"
-echo "hysteria2已经安装完成"
-echo "默认端口： 30008 ， 密码为： $GENPASS ，工具中配置：tls，SNI为： bing.com"
+echo "✅ hysteria2 已安装并启动成功"
+echo "端口：30008"
+echo "密码：$GENPASS"
 echo "配置文件：/etc/hysteria/config.yaml"
-echo "已经随系统自动启动"
-echo "看状态 service hysteria status"
-echo "重启 service hysteria restart"
-echo "请享用。"
+echo "已设置为开机启动，可用以下命令管理服务："
+echo "启动:    service hysteria start"
+echo "重启:    service hysteria restart"
+echo "状态:    service hysteria status"
+echo "------------------------------------------------------------------------"
+echo "🎯 客户端连接（适用于V2RayN / Clash）："
+echo "hy2://${GENPASS}@${SERVER_IP}:30008?sni=bing.com&insecure=1#Hysteria2"
 echo "------------------------------------------------------------------------"
