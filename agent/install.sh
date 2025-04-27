@@ -188,6 +188,9 @@ install() {
     fi
 
     success "nezha-agent successfully installed"
+    
+    # 添加执行权限
+    chmod +x "$NZ_AGENT_PATH/nezha-agent"
 
     # 启动服务并添加开机启动
     if ! sudo rc-update add nezha-agent default; then
