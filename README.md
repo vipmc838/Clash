@@ -5,7 +5,7 @@
 ```
 wget -O hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/hy2.sh && sh hy2.sh
 ```
-重复执行，会覆盖密码。  
+
 
 ## 说明：  
 配置文件：/etc/hysteria/config.yaml  
