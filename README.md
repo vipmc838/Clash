@@ -10,6 +10,7 @@ wget -O hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/hy2.sh && s
 ```
 wget -O claw-cloud-hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/claw-cloud-hy2.sh && sh claw-cloud-hy2.sh
 ```
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)]
 
 ## 说明：  
 配置文件：/etc/hysteria/config.yaml  
