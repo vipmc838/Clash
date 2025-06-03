@@ -10,7 +10,7 @@ wget -O hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/hy2.sh && s
 ```
 wget -O claw-cloud-hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/claw-cloud-hy2.sh && sh claw-cloud-hy2.sh
 ```
-(blob:https://github.com/d391097d-0813-4c73-abaf-fa1f96ba9be9)
+[(blob:https://github.com/d391097d-0813-4c73-abaf-fa1f96ba9be9)]
 
 ## 说明：  
 配置文件：/etc/hysteria/config.yaml  
