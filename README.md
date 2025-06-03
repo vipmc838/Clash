@@ -5,6 +5,8 @@
 ```
 wget -O hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/hy2.sh && sh hy2.sh
 ```
+
+## claw-cloud 一键食用 
 ```
 wget -O claw-cloud-hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/claw-cloud-hy2.sh && sh claw-cloud-hy2.sh
 ```
