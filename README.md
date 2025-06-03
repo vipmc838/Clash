@@ -10,7 +10,7 @@ wget -O hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/hy2.sh && s
 ```
 wget -O claw-cloud-hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/claw-cloud-hy2.sh && sh claw-cloud-hy2.sh
 ```
-(./UI.png)
+![claw-cloud 一键食用 ](./UI.png)
 
 ## 说明：  
 配置文件：/etc/hysteria/config.yaml  
