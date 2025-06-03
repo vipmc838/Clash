@@ -15,7 +15,8 @@ if [ -z "$PORT" ] || [ -z "$PASSWORD" ]; then
 fi
 
 # ===== 安装 Hysteria2 可执行文件 =====
-wget -O /usr/local/bin/hysteria https://github.com/vipmc838/Clash/raw/refs/heads/main/hysteria-linux-amd64 --no-check-certificate
+# wget -O /usr/local/bin/hysteria https://github.com/vipmc838/Clash/raw/refs/heads/main/hysteria-linux-amd64 --no-check-certificate
+wget -O /usr/local/bin/hysteria https://download.hysteria.network/app/latest/hysteria-linux-amd64 --no-check-certificate
 chmod +x /usr/local/bin/hysteria
 
 # ===== 创建配置目录与证书 =====
