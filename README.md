@@ -13,4 +13,4 @@ wget -O hy2.sh https://raw.githubusercontent.com/vipmc838/Clash/main/hy2.sh && s
 随系统自启动  
 看状态 service hysteria status  
 重启 service hysteria restart  
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
