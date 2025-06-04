@@ -16,7 +16,7 @@ apk add --no-cache curl wget bash openssl ca-certificates >/dev/null 2>&1
 read -p "请输入 爪云分配的外网域名（如 southeast-1.clawcloudrun.com）: " SERVER_DOMAIN
 read -p "请输入内网监听端口（如 30008，用于配置文件）: " IN_PORT
 read -p "请输入外网连接端口（爪云分配的udp端口，用于客户端连接）: " OUT_PORT
-read -p "请输入连接密码: " PASSWORD
+read -p "请输入连接密码UUID: " PASSWORD
 
 if [ -z "$SERVER_DOMAIN" ] || [ -z "$IN_PORT" ] || [ -z "$OUT_PORT" ] || [ -z "$PASSWORD" ]; then
   echo -e "${RED}❌ 错误：所有字段不能为空，安装终止。${RESET}"
