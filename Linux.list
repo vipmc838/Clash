@@ -1,5 +1,8 @@
 # 个人列表，默认走代理
 
+# 游戏机
+DOMAIN-SUFFIX,rustix.me
+
 # 论坛
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,nodeloc.com
