@@ -1,5 +1,12 @@
 # 个人列表，默认走代理
 
+# CF
+DOMAIN-SUFFIX,cdnjs.cloudflare.com
+
+# AI
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
 # 游戏机
 DOMAIN-SUFFIX,rustix.me
 
